@@ -18,6 +18,12 @@ Run the program from the command line by passing the cookie log file and the dat
 python cookie_log_analysis.py -f <path_to_cookie_log_file> -d <date>
 ```
 
+You can run the program on data.csv within the root directory:
+
+``` 
+python cookie_log_analysis.py -f data.csv -d 2018-12-09
+```
+
 ## Testing
 To run the tests, make sure pytest is installed (it's listed in requirements.txt) and execute the following command in the terminal:
 
